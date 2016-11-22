@@ -1,0 +1,247 @@
+
+
+/***********************************************************************END MENU STYLE SHEET**********************************************/
+/****************************************************************************************************************************************/
+
+/*******************************************************************************BEGIN BODY STYLE SHEET***********************************/
+
+#contener{
+
+ width: auto;
+ height: auto;
+ position: relative;
+ top: 62px;
+
+}
+
+#slide_post{
+
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  /*justify-content: space-between;*/
+  background-color: black;
+
+}
+
+#slider{
+
+  width: 85%;
+  height: 500px;
+  border: 1px solid black;
+  /*border-right: 1px;
+  border-left: 0px;*/
+  background-color: #ecf0f1;
+  background-image: url(../images/essai.jpg);
+
+}
+
+#post{
+
+ width: 30%;
+ height: 500px;
+ border: 1px solid black;
+ /*border-right: 0px;
+ border-left: 1px;*/
+ position: relative;
+ left: 2px;
+overflow: hidden;
+display: inline-block;
+
+}
+
+.posts{
+
+  width: 100%;
+  height: 100%;
+  background-color: #ecf0f1;
+
+}
+
+#mails{
+
+  background-color: crimson;
+  position: relative;
+  bottom: 500px;
+  left: 367px;
+  /*margin-bottom: -200px;*/
+
+}
+
+#sign{
+
+  background-color: green;
+  position: relative;
+  left: 367px;
+  bottom: 1000px;
+
+}
+
+#motivation{
+
+  margin: 0px;
+  padding: 0px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ width: 100%;
+ height: 250px;
+ background-color: #4717F6;
+ position: relative;
+ border: 1px solid black;
+ border-top: 1px;
+
+}
+
+#motivation a{
+
+ position: relative;
+ bottom: 15px;
+  width: 230px;
+  height: 230px;
+ text-decoration: none;
+
+}
+
+#motivation:first-child:nth-child(2){
+
+  color: red;
+}
+
+#motivation a p{
+
+  color:black;
+  text-align: center;
+  position:relative;
+  bottom: 40px;
+  right: 20px;
+  font-size: 35px;
+
+}
+
+.motivations{
+
+  text-align: center;
+  width: 200px;
+  height: 200px;
+/*  border: 2px solid black;
+  border-radius: 100%;*/
+  margin-top: 25px;
+}
+
+#last_events{
+
+  margin: 0px;
+  padding: 30px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #ecf0f1;
+  /*border: 1px solid #ecf0f1;*/
+  border: 1px solid black;
+  border-top: 1px;
+  border-left: 0px;
+  position: relative;
+  left: 2px;
+
+}
+
+#event_round{
+
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.event{
+
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  margin: auto;
+  margin-bottom: 80px;
+
+}
+
+h1{
+
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+h2{
+
+  width: 100%;
+  height: 50px;
+  background-color: blue;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.img_comit_vieuw{
+
+   width: 100%;
+   height: 350px;
+   display: inline-block;
+
+}
+
+.img_comit_vieuw img{
+
+  width: 100%;
+  height: 100%;
+  background-color: black;
+
+}
+
+/*.img_comit_vieuw p{
+
+  width: 100%;
+  height: 100%;
+  background-color: yellow;
+  position: relative;
+  bottom: 370px;
+  /*opacity: 0;
+
+
+}*/
+
+.img_comit_vieuw div{
+
+ width: 100px;
+ height: 100px;
+ border-radius: 100%;
+ background-color: green;
+ position: relative;
+ bottom: 60px;
+ left: 300px;
+
+
+}
+
+
+#foot{
+
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 200px;
+  border: 1px solid black;
+  border-bottom: 0px;
+  border-top: 0px;
+  background-color: #7f8c8d;
+  position: relative;
+  top: 62px;
+
+}
